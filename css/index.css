@@ -129,6 +129,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 html,
 body {
@@ -138,35 +139,44 @@ body {
   background-color: white;
 }
 img {
-  align: left;
+  background-size: cover;
 }
 header nav a {
   text-decoration: none;
   font-size: 1.25rem;
   color: teal;
 }
-title {
-  font-size: 2rem;
-}
 .headline {
   font-size: 1.2rem;
   font-weight: 500;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
-header {
-  border-bottom: 1px solid black;
-  margin: 20px 40px;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
+.about {
+  float: right;
+  width: 50%;
+  height: 100%;
 }
 h1 {
-  padding: 20px 0;
+  width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
 }
 p {
   line-height: 1;
   margin: 20px 0;
   font-size: 1rem;
+}
+.container {
+  position: absolute;
+  right: 120px;
+  width: 600px;
+  height: 100%;
+}
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
 }
