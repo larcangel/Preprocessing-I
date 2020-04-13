@@ -135,5 +135,38 @@ body {
   height: 100%;
 }
 body {
-  background-color: teal;
+  background-color: white;
+}
+img {
+  align: left;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: teal;
+}
+title {
+  font-size: 2rem;
+}
+.headline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  border-bottom: 1px solid black;
+  margin: 20px 40px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+p {
+  line-height: 1;
+  margin: 20px 0;
+  font-size: 1rem;
 }
